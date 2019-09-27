@@ -41,6 +41,11 @@ namespace OOPDWeek1Task1
             quest9 = Console.ReadLine();
             Console.WriteLine("Person 10, Which flavour do you like most, out of R, G and B?");
             quest10 = Console.ReadLine();
+
+            if (quest1 == quest2 + quest3 + quest4 + quest5 + quest6 + quest7 + quest8 + quest9 + quest10);
+            {
+                Console.WriteLine("You have all selected {0}", quest1);
+            }
         }
     }
 }
