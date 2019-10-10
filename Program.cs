@@ -42,11 +42,11 @@ namespace OOPDWeek1Task1
             Console.WriteLine("Person 10, Which flavour do you like most, out of R, G and B?");
             quest10 = Console.ReadLine();
 
-        while (quest2 != quest1 && quest3 != quest1 && quest4 != quest1 && quest5 != quest1 && quest6 != quest1 && quest7 != quest1 && quest8 != quest1 && quest9 != quest1 && quest10 != quest1)
+        while (quest2 != quest1 || quest3 != quest1 || quest4 != quest1 || quest5 != quest1 || quest6 != quest1 || quest7 != quest1 || quest8 != quest1 || quest9 != quest1 || quest10 != quest1)
         {           
                 Console.WriteLine("Try again! You all need to select the same flavour!");            
         }
-        
+       
         //if (quest2 == quest1 && quest3 == quest1 && quest4 == quest1 && quest5 == quest1 && quest6 == quest1 && quest7 == quest1 && quest8 == quest1 && quest9 == quest1 && quest10 == quest1)
          //   {
            //     Console.WriteLine("You have all selected {0}", quest1);
